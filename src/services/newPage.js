@@ -9,3 +9,7 @@ export async function post(params) {
     body: params,
   });
 }
+
+export async function get() {
+  return request('/api/newpage/test');
+}

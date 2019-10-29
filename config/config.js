@@ -118,7 +118,12 @@ export default {
             {
               path: '/newPage',
               component: './newPage/newPage',
-              name: 'New Page',
+              name: 'newPage',
+            },
+            {
+              path: '/listUser',
+              component: './users/listUser',
+              name: 'listUser',
             },
             {
               component: './404',
